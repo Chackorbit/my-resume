@@ -12,10 +12,26 @@ li {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 985px;
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* button lang */
+
+.div-button-language {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-lang-eng {
+  cursor: pointer;
+}
+
+.btn-lang-uk {
+  cursor: pointer;
 }
 
 /* Main content section */
@@ -47,6 +63,7 @@ li {
 }
 
 .main-content-section {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 100px 90px;
@@ -183,7 +200,7 @@ li {
 
 .my-photo {
   width: 370px;
-  height: 450px;
+  /* height: 450px; */
   left: 40px;
   top: 40px;
 }
